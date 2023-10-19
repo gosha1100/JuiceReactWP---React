@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "project": ["tsconfig.json"],
+    "sourceType": "module"
+  },
+  "include": ["vite.config.ts"]
+}

@@ -1,0 +1,4 @@
+{
+  "*": ["prettier --config .prettierrc --check --ignore-unknown ./src"],
+  "*.{js,jsx,ts,tsx}": ["eslint . --ext ts,tsx --max-warnings 0"]
+}
