@@ -1,0 +1,1 @@
+cp ./dist/assets/index.js ../WordPressJuicer/wp-content/themes/reactJuice/index.js
