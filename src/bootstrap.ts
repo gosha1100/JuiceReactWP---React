@@ -1,6 +1,7 @@
 import { Bootstrapper, ContainerBuilder } from 'react-habitat';
 
-import { Test } from './components/Test/Test';
+import { Juice } from './components/Juice/Juice';
+import { NavBar } from './components/NavBar/NavBar';
 
 export class Bootstrap extends Bootstrapper {
   constructor() {
@@ -8,7 +9,8 @@ export class Bootstrap extends Bootstrapper {
 
     const builder = new ContainerBuilder();
 
-    builder.register(Test).as('Test');
+    builder.register(NavBar).as('nav-bar');
+    builder.register(Juice).as('juice');
 
     this.setContainer(builder.build());
   }
