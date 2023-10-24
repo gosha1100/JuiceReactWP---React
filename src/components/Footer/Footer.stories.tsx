@@ -1,20 +1,20 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { NavBar as NavBarComponent } from './NavBar';
+import { Footer as FooterComponent } from './Footer';
 
 const meta = {
-  title: 'Components/NavBar',
-  component: NavBarComponent,
+  title: 'Components/Footer',
+  component: FooterComponent,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ['autodocs'],
-} satisfies Meta<typeof NavBarComponent>;
+} satisfies Meta<typeof FooterComponent>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    image: '',
+    image: 'https://via.placeholder.com/150',
     menu: [
       {
         id: 1,
