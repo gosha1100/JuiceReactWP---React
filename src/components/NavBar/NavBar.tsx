@@ -1,16 +1,16 @@
-import { NavMenu, Props as NavMenuProps } from './NavMenu/NavMenu';
+import { Props as NavItemProps } from './NavItem/NavItem';
+import { NavMenu } from './NavMenu/NavMenu';
 
 export type Props = {
   image: string;
-  menu: NavMenuProps;
+  menu: Array<NavItemProps>;
 };
 
 export function NavBar({ image, menu }: Props) {
   return (
     <div>
       <img src={image} alt="logo" />
-      <p>hello bitte funktionier</p>
-      <NavMenu items={menu.items} />
+      <NavMenu items={menu} />
     </div>
   );
 }

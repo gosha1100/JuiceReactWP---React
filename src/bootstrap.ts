@@ -9,7 +9,7 @@ export class Bootstrap extends Bootstrapper {
 
     const builder = new ContainerBuilder();
 
-    builder.register(NavBar).as('nav-bar');
+    builder.register(NavBar).as('navbar');
     builder.register(Juice).as('juice');
 
     this.setContainer(builder.build());
