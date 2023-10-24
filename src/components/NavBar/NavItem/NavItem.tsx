@@ -12,7 +12,7 @@ export function NavItem({ title, url, items = [] }: Props) {
     <li>
       <a href={url}>{title}</a>
       {items.length > 0 && (
-        <ul>
+        <ul className="flex flex-col gap-3 pt-4">
           {items.map((subItem) => (
             <SubNavItem key={subItem.id} {...subItem} />
           ))}

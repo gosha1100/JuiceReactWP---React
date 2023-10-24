@@ -10,5 +10,5 @@ export function NavMenu({ items }: Props) {
       <NavItem {...item} />
     </li>
   ));
-  return <ul>{listItems}</ul>;
+  return <ul className="flex gap-7">{listItems}</ul>;
 }

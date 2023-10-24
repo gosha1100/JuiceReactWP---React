@@ -14,7 +14,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    image: '',
     menu: [
       {
         id: 1,

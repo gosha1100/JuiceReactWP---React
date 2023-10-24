@@ -14,7 +14,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    image: 'https://via.placeholder.com/150',
     menu: [
       {
         id: 1,

@@ -8,7 +8,7 @@
     "commit": "git-cz",
     "lint-staged-husky": "lint-staged",
     "dev": "vite",
-    "build": "tsc && vite build && sh copy-indexjs.sh",
+    "build": "tsc && vite build && sh copy-indexjs_indexcss.sh",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint-fix": "eslint --fix ./src",
     "component": "hygen component new",
